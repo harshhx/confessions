@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Post your Confession</title>
+    <link rel="stylesheet" href="css/create.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">confessions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/about">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/create">contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/logout">log out</a>
+            </li>            
+          </ul>
+        </div>
+      </nav>
+    <div class="card w-50 create text-center border-dark" style="margin-top: 75px;">
+        <h3 class="card-header" style="text-align: center;">Post your Confession</h3>
+        <div class="card-body">
+         <form action="/create" method="POST">
+          <input style="margin-top: 20px ; margin-bottom: 20px;" type="text" class="form-control text-center" name="secret" placeholder="What's your confession?">
+             <button class="btn btn-primary" type="submit" style="margin: auto;">Submit</button>
+         </form>
+        </div>
+    </div>
+<body>
+</html>

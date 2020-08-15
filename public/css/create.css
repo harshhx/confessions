@@ -1,0 +1,8 @@
+body{
+    background-color: crimson;
+    background-image: url("3px-tile.png");
+}
+
+.create{
+    margin: auto;
+}

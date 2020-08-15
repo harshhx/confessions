@@ -1,0 +1,62 @@
+.main-heading{
+    color: #d9c6a5;
+    background-color: crimson;
+    background-image: url("3px-tile.png");
+}
+
+.main-heading h1{
+    font-size: 125px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.main-heading p{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+    font-size: 17px;
+    width: 30%;
+    margin: auto;
+}
+
+.login-register{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.buttons{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.login-register p {
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+.procedure  {
+    background-color: crimson;
+    background-image: url("3px-tile.png");
+    color: #d9c6a5;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.procedure-heading{
+    padding-bottom: 20px;
+}
+
+.procedure ol {
+    text-align: center;
+}
+

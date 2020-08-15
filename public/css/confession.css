@@ -1,0 +1,34 @@
+body{
+    background-color: crimson;
+    background-image: url("3px-tile.png");
+}
+
+a.btn {
+    border-radius: .25rem;
+     border: 1px solid transparent; 
+     padding: .5rem 1rem;
+     color:#d9c6a5; 
+}
+
+a.btn:hover { 
+    border-radius: .25rem; 
+    color: #f7e7bd;
+}
+
+.card{
+    margin:auto;
+    background-color: #f7e7bd;
+}
+
+.card-text{
+    font-size: 25px;
+}
+
+.create{
+    margin-left: 525px;
+    margin-top: 50px;
+}
+
+.btn{
+    font-size: 50px;
+}
